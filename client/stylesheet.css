@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url(../images/bg2.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f0f0f0;
@@ -62,6 +63,37 @@ th, td {
     padding: 5px;
 }
 
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) td {
+    background-color: #e0e0e0;
+}
+
+thead th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 /* Style the delete and edit buttons */
 #table button {

@@ -7,7 +7,11 @@
     <title>web app</title>
 </head>
 <body>
-
+    <header>
+        <div class="title-container">
+            <h1 class="app-title">TODO App</h1>
+        </div>
+    </header>
     <main>
         <div>
             <input type="text" placeholder="Search ToDo" id="search-input">
@@ -33,12 +37,15 @@
         </table>
 
         <section hidden id="update-row">
-            <!-- <label>Name:</label> -->
             <input type="text" id="update-name-input">
             <button id="update-row-btn">Update</button>
         </section>
     </main>
-
+    <footer>
+        <div class="footer-content">
+            <p>Made with <span class="heart">❤</span> by Sakibul Islam</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
